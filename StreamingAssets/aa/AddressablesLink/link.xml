@@ -69,6 +69,10 @@
     <type fullname="Quantum.Menu.QuantumMenuConnectionShutdownFlag" preserve="nothing" serialized="true" />
     <type fullname="Quantum.Menu.QuantumMenuScreenPluginPing/ColorThresholds" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Quantum.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Quantum.PhotonServerSettings" preserve="all" />
+    <type fullname="Quantum.QuantumDeterministicSessionConfigAsset" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
@@ -249,7 +253,11 @@
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
+  <assembly fullname="Photon.Realtime">
+    <type fullname="Photon.Realtime.AppSettings" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Quantum.Deterministic">
+    <type fullname="Photon.Deterministic.DeterministicSessionConfig" preserve="nothing" serialized="true" />
     <type fullname="Photon.Deterministic.FP" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Quantum.Engine">
