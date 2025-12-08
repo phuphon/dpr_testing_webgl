@@ -1,18 +1,23 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Bitgem.VFX.StylisedWater.WaterVolumeHelper" preserve="all" />
+    <type fullname="Bitgem.VFX.StylisedWater.WaterVolumeTransforms" preserve="all" />
+    <type fullname="BookAnimationControllerV2" preserve="all" />
+    <type fullname="ChildrenTransformRounding" preserve="all" />
     <type fullname="DprCharacterVisualBinding" preserve="all" />
     <type fullname="DprControlPointHudView" preserve="all" />
     <type fullname="DprDeployMenuView" preserve="all" />
-    <type fullname="DprDeployMenuViewControl" preserve="all" />
     <type fullname="DprMapCellSceneManager" preserve="all" />
     <type fullname="DprUICharacterStat" preserve="all" />
+    <type fullname="EnemyInCellSceneInterface" preserve="all" />
     <type fullname="GridLayoutNavigator" preserve="all" />
-    <type fullname="GridTilePainter" preserve="all" />
     <type fullname="MapEditorStaticObjectToDprStaticObject" preserve="all" />
     <type fullname="MouseDragBox" preserve="all" />
     <type fullname="SceneTransitionBasic" preserve="all" />
     <type fullname="SceneViewCharacterCreationBodyFeature" preserve="all" />
     <type fullname="SceneViewPartyCreation" preserve="all" />
+    <type fullname="SMB_BookCasting" preserve="all" />
+    <type fullname="SMB_BookStance" preserve="all" />
     <type fullname="SoCustomizationCatalog" preserve="all" />
     <type fullname="SoHairStyle" preserve="all" />
     <type fullname="SoJob" preserve="all" />
@@ -35,6 +40,7 @@
     <type fullname="UIPartyCreation" preserve="all" />
     <type fullname="UISetName" preserve="all" />
     <type fullname="UITitle" preserve="all" />
+    <type fullname="UnusedDprDeployMenuViewControl" preserve="all" />
     <type fullname="DprStance" preserve="nothing" serialized="true" />
     <type fullname="HairMaterialOption" preserve="nothing" serialized="true" />
     <type fullname="SoJobBodyTypeOption" preserve="nothing" serialized="true" />
@@ -58,6 +64,7 @@
     <type fullname="Quantum.Menu.QuantumMenuUIPopup" preserve="all" />
     <type fullname="Quantum.Menu.QuantumMenuUIScenes" preserve="all" />
     <type fullname="Quantum.Menu.QuantumMenuUISettings" preserve="all" />
+    <type fullname="Quantum.Menu.PhotonMenuSceneInfo" preserve="nothing" serialized="true" />
     <type fullname="Quantum.Menu.QuantumMenuConnectArgs" preserve="nothing" serialized="true" />
     <type fullname="Quantum.Menu.QuantumMenuConnectionShutdownFlag" preserve="nothing" serialized="true" />
     <type fullname="Quantum.Menu.QuantumMenuScreenPluginPing/ColorThresholds" preserve="nothing" serialized="true" />
@@ -93,7 +100,7 @@
     <type fullname="Unity.Cinemachine.ScreenComposerSettings/HardLimitSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.TargetTracking.TrackerSettings" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.14.2.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.InputSystem, Version=1.16.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
@@ -109,22 +116,24 @@
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -138,6 +147,7 @@
     <type fullname="TMPro.TMP_Dropdown" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_StyleSheet" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.GlyphAnchorPoint" preserve="nothing" serialized="true" />
@@ -153,6 +163,7 @@
     <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
@@ -161,7 +172,6 @@
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
-    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
     <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
@@ -187,7 +197,6 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
-    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
@@ -219,19 +228,15 @@
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
-    <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
-    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
@@ -253,8 +258,12 @@
     <type fullname="Quantum.InstantReplaySettings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Quantum.Simulation">
+    <type fullname="Quantum.CollectorsSampleRuntimeConfig" preserve="nothing" serialized="true" />
     <type fullname="Quantum.Dpr_Rp_Party" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.DPRRuntimeConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.RuntimeConfig" preserve="nothing" serialized="true" />
     <type fullname="Quantum.RuntimePlayer" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.SpellcasterSampleRuntimeConfig" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
